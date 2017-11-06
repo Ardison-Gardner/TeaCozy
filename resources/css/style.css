@@ -38,7 +38,7 @@ header img {
   padding-left: 10px;
 }
 
-/* Navigation */
+/* Navigation. */
 
 nav {
   flex-grow: 1;
@@ -48,6 +48,29 @@ nav {
 nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+
+/* Main section. */
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission section. */
+
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  padding-top: 70px;
+}
+
+#mission .content {
+  background-color: black;
+  margin: auto;
+  width: 100%;
 }
 
 /* Project by Gregory Ardison-Gardner. */
