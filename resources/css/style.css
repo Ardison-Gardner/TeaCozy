@@ -73,4 +73,26 @@ nav span {
   width: 100%;
 }
 
+/* Tea of the Month section. */
+
+#hightlight {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.item img {
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.item span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
 /* Project by Gregory Ardison-Gardner. */
