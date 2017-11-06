@@ -1,0 +1,53 @@
+/* General styles. */
+
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Header. */
+
+header {
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+/* Navigation */
+
+nav {
+  flex-grow: 1;
+  text-align: right;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Project by Gregory Ardison-Gardner. */
